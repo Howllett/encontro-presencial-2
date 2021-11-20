@@ -1,19 +1,23 @@
 
 
 body{
-
-
- background-image: url( https://i1.wp.com/www.nikkeyweb.org.br/wp-content/uploads/2020/07/street-fighter-v-seth.jpg?resize=770%2C400&ssl=1 );
- font-family:arial;
- margin: auto;
+    font-family:arial;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-image: url( https://i1.wp.com/www.nikkeyweb.org.br/wp-content/uploads/2020/07/street-fighter-v-seth.jpg?resize=770%2C400&ssl=1 );
+    font-family:arial;
+    margin: auto;
+    height: 100vh;
+    background-size:cover;
+    background-color:black;
 }
 
 
 h2, h1, h3 {
     text-align: center;
     color:white;
-    border-radius: 40px;
-    padding: 10px;
+    border-radius:40px;
+    padding: 20px;
 }
 a {
    text-decoration: none;
@@ -32,19 +36,14 @@ a:hover {
     position: absolute;
     left:50%;
    transform: translateX(-25%);
-
-width: 40%;
-height: 100px;
-float: right;
-box-shadow: 1px 2px 4px 9px rgba(90,100,100,0.75)
-
+   border-radius: 40px;
 
 }
 
 .conteudo{
     margin: auto;
     margin-top: 100px;
-    padding: 8px;
+    padding: 10px;
     width: 400px;
     border-radius: 40px;
     box-shadow: 10px 10px 20x black;
@@ -73,18 +72,19 @@ box-shadow: 1px 2px 4px 9px rgba(90,100,100,0.75)
 h3{
  margin-top: 300px;
  margin: auto; 
-text-align-last: center;
-color: cornflowerblue;
+text-decoration-line: none;
+color:black;
 margin-top: 100px;
-width: 400px;
+width: 300px;
 padding: 10px;
-border-radius: 30px;
+border-radius: 40px;
+
 }
 h4{
 margin: auto;
- margin-top: 200px;
- background-color: white;
- border-radius: 40px;
+ margin-top: 90px;
+ background-color: whitesmoke;
+ border-radius: 10px;
  padding: 10px;
  width: 400px;
 }
@@ -111,4 +111,10 @@ h2{
 }
 strong{
     color: black;
+    text-align-last: center;
 }
+
+h1 img{
+    box-shadow: 10px 10px 20x black;
+    border-radius: 50px
+   }
