@@ -14,7 +14,7 @@
 <title>Estação dos Games</title>
 <script src="_JAVASCRIPT/JAVA - galeria.JS"></script>
 
-
+<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
 
 
 </head>
@@ -45,6 +45,22 @@
 <img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZBhiZvR-agFcR0eD97y4OqOC9DAX29G5Qog&usqp=CAU  " alt="row" class="rounded-circle">
 <img src="   https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk3igAtqLKKq5xi4aSLBvFMNEnBE9BeH97d9UJzbw_4bM9bZ4iiOhLDtCtRT00r2n9p3E&usqp=CAU" alt="..." class="rounded-circle">
 
-
+<select name="Comics" multiple="multiple">
+  <option>Thor</option>
+  <option>Hulk</option>
+  <option>Spider man </option>
+  <option>Batman</option>
+  </select>
+  <div></div>
+  <script>
+  $("select").change(function () {
+  var escolhido = "";
+  $("select option:selected").each(function () {
+  Escolhido += $(this).text() + " ";
+  });
+   alert("Você prefere o "+escolhido);
+  })
+  .change();
+  </script>
 </body>
 </html>
